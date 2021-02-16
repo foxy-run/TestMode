@@ -1,0 +1,6 @@
+ru/netology/Registr.java
+ ru.netology.Registr
+ru/netology/Generator.java
+ ru.netology.Generator
+ru/netology/AuthtorizationTest.java
+ ru.netology.AuthtorizationTest
