@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - AuthtorizationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>AuthtorizationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ru.netology.html">ru.netology</a> &gt; AuthtorizationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">5.528s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldNotSubmitRequestIfLoginIsInvalid()</td>
+<td class="success">0.648s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldNotSubmitRequestIfPasswordIsInvalid()</td>
+<td class="success">3.771s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldNotSubmitRequestIfStatusIsBlocked()</td>
+<td class="success">0.738s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldSubmitRequestIfUserIsValid()</td>
+<td class="success">0.371s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;login&quot;: &quot;willy&quot;,
+    &quot;password&quot;: &quot;password&quot;,
+    &quot;status&quot;: &quot;active&quot;
+}
+Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;login&quot;: &quot;florentino&quot;,
+    &quot;password&quot;: &quot;jxs38jjn5hp9yfv&quot;,
+    &quot;status&quot;: &quot;blocked&quot;
+}
+Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;login&quot;: &quot;ivan&quot;,
+    &quot;password&quot;: &quot;uxyyxve46st65&quot;,
+    &quot;status&quot;: &quot;active&quot;
+}
+Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;login&quot;: &quot;lecia&quot;,
+    &quot;password&quot;: &quot;cwmyn43xmqh&quot;,
+    &quot;status&quot;: &quot;active&quot;
+}
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 23 - let's create a new webdriver
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 88.0.4324.96 (since Google Chrome 88 is installed in your machine)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\OMV\.m2\repository\webdriver\chromedriver\win32\88.0.4324.96\chromedriver.exe
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 5300
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+февр. 16, 2021 9:05:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1366x768
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=88.0.4324.150 Platform=WINDOWS
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.11.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 23: ChromeDriver -&gt; ChromeDriver: chrome on WINDOWS (e7acd3db6837f9563474386841defd6f)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7</a> at 16 февр. 2021 г., 21:05:57</p>
+</div>
+</div>
+</body>
+</html>
